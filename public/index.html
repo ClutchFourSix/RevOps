@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RevOps MSP Finder</title>
+</head>
+<body>
+  <h1>MSP Finder</h1>
+  <input id="city" placeholder="City">
+  <input id="state" placeholder="State">
+  <button onclick="search()">Search</button>
+
+  <ul id="results"></ul>
+
+  <script>
+    async function search() {
+      const city = document.getElementById('city').value;
+      const state = document.getElementById('state').value;
+
+      const res = await fetch(`/api/search?city=${city}&state=${state}`);
+      const data = await res.json();
+
+      const list = document.getElementById('results');
+      list.innerHTML = '';
+
+      data.forEach(item => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${item.website}" target="_blank">${item.name}</a>`;
+        list.appendChild(li);
+      });
+    }
+  </script>
+</body>
+</html>
