@@ -1,57 +1,99 @@
 import json
-import feedparser
+import os
 from datetime import datetime
+import requests
 
-KEYWORDS = {
-    "pain": ["overwhelmed", "too busy", "backlog", "missed calls"],
-    "growth": ["growing fast", "expanding", "new clients"],
-    "hiring": ["need help", "looking for someone", "recommend someone"],
-    "sales": ["more leads", "appointments", "follow up"]
-}
+# Optional Yelp API (set in GitHub Secrets for real data)
+YELP_API_KEY = os.getenv("YELP_API_KEY")
 
-SOURCES = [
-    "https://news.google.com/rss/search?q=small+business+growth",
-    "https://www.reddit.com/search.rss?q=business+need+help"
-]
+SEARCH_TERMS = ["hvac", "roofing", "plumbing", "it services", "marketing agency"]
+LOCATION = "Dallas, TX"
 
-def score_text(text):
-    score = 0
-    matched = []
 
-    for category, words in KEYWORDS.items():
-        for w in words:
-            if w in text.lower():
-                score += 15
-                matched.append(w)
+def score_business(b):
+    score = 50
 
-    return score, matched
+    if b.get("rating", 5) < 4:
+        score += 20
 
-results = []
+    if b.get("review_count", 0) < 20:
+        score += 20
 
-for url in SOURCES:
-    feed = feedparser.parse(url)
+    if not b.get("url"):
+        score += 10
 
-    for entry in feed.entries[:15]:
-        text = entry.title + " " + entry.get("summary", "")
-        score, matches = score_text(text)
+    return score
 
-        if score > 0:
+
+def determine_need(b):
+    if b.get("rating", 5) < 4:
+        return "Reputation / review generation"
+    if b.get("review_count", 0) < 20:
+        return "Lead generation / visibility"
+    return "Sales support"
+
+
+def fetch_yelp():
+    if not YELP_API_KEY:
+        return []
+
+    headers = {"Authorization": f"Bearer {YELP_API_KEY}"}
+    results = []
+
+    for term in SEARCH_TERMS:
+        url = "https://api.yelp.com/v3/businesses/search"
+        params = {"term": term, "location": LOCATION, "limit": 10}
+
+        res = requests.get(url, headers=headers, params=params)
+        if res.status_code != 200:
+            continue
+
+        data = res.json().get("businesses", [])
+
+        for b in data:
             results.append({
-                "score": score,
-                "company": "Unknown",
-                "title": entry.title,
-                "signal_summary": text[:140],
-                "likely_need": "Sales / Ops Help",
-                "recommended_action": "Research and reach out",
-                "source": url,
-                "url": entry.link,
-                "matched_terms": matches,
-                "published": str(datetime.now().date())
+                "company": b.get("name"),
+                "rating": b.get("rating"),
+                "review_count": b.get("review_count"),
+                "phone": b.get("display_phone"),
+                "url": b.get("url")
             })
 
-results = sorted(results, key=lambda x: x["score"], reverse=True)
+    return results
+
+
+def fallback_data():
+    return [
+        {"company": "Dallas HVAC Pros", "rating": 3.2, "review_count": 12, "phone": "(214) 555-1234", "url": ""},
+        {"company": "Elite Roofing TX", "rating": 4.1, "review_count": 8, "phone": "(214) 555-5678", "url": ""}
+    ]
+
+
+businesses = fetch_yelp()
+if not businesses:
+    businesses = fallback_data()
+
+leads = []
+
+for b in businesses:
+    score = score_business(b)
+
+    leads.append({
+        "score": score,
+        "company": b["company"],
+        "title": f"{b['company']} — {LOCATION}",
+        "signal_summary": f"Rating: {b.get('rating')} | Reviews: {b.get('review_count')}",
+        "likely_need": determine_need(b),
+        "recommended_action": f"Call {b.get('phone', 'N/A')} and offer help",
+        "source": "Yelp API" if YELP_API_KEY else "Fallback Data",
+        "url": b.get("url", "#"),
+        "matched_terms": [],
+        "published": str(datetime.now().date())
+    })
+
+leads = sorted(leads, key=lambda x: x["score"], reverse=True)
 
 with open("docs/leads.json", "w") as f:
-    json.dump(results, f, indent=2)
+    json.dump(leads, f, indent=2)
 
-print(f"Saved {len(results)} leads")
+print(f"Generated {len(leads)} business leads")
