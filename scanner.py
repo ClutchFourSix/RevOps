@@ -1,17 +1,15 @@
 import json
 import os
 from datetime import datetime
-from urllib.parse import quote_plus
-
 import requests
 
 MODE = os.getenv("SCAN_MODE", "local").strip().lower()
 CITY = os.getenv("SCAN_LOCATION", "Dallas, Texas").strip()
-INDUSTRY_TERMS = [x.strip().lower() for x in os.getenv("INDUSTRY_TERMS", "plumbing,roofing,hvac,it services,marketing agency").split(",") if x.strip()]
+INDUSTRY_TERMS = [x.strip().lower() for x in os.getenv("INDUSTRY_TERMS", "plumbing,roofing,hvac,it services,marketing agency,sales").split(",") if x.strip()]
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-HEADERS = {"User-Agent": "RevOpsHiddenJobRadar/0.5 (GitHub Pages MVP)"}
+HEADERS = {"User-Agent": "RevOpsHiddenJobRadar/0.6"}
 
 TERM_TAGS = {
     "plumbing": [("craft", "plumber")],
@@ -23,26 +21,18 @@ TERM_TAGS = {
     "it services": [("shop", "computer"), ("office", "it")],
     "computer": [("shop", "computer")],
     "marketing agency": [("office", "advertising_agency"), ("office", "company")],
-    "agency": [("office", "advertising_agency"), ("office", "company")]
+    "agency": [("office", "advertising_agency"), ("office", "company")],
+    "sales": [("office", "company"), ("shop", "trade")],
+    "sdr": [("office", "company")],
+    "appointment setter": [("office", "company"), ("shop", "trade")],
+    "lead generation": [("office", "advertising_agency"), ("office", "company")]
 }
 
+SALES_KEYWORDS = {"sales", "sdr", "appointment setter", "lead generation", "business development", "cold calling"}
+
 REMOTE_SEEDS = [
-    {
-        "company": "Remote SaaS Sales Signal",
-        "category": "remote",
-        "location": "remote",
-        "phone": "",
-        "website": "https://www.linkedin.com/search/results/content/?keywords=looking%20for%20SDR%20remote",
-        "signal": "Remote SDR / sales development signal search"
-    },
-    {
-        "company": "Remote Appointment Setter Signal",
-        "category": "remote",
-        "location": "remote",
-        "phone": "",
-        "website": "https://www.google.com/search?q=%22looking+for+appointment+setter%22+remote",
-        "signal": "Remote appointment setter signal search"
-    }
+    {"company": "Remote SaaS Sales Signal", "category": "remote", "location": "remote", "phone": "", "website": "https://www.linkedin.com/search/results/content/?keywords=looking%20for%20SDR%20remote", "signal": "Remote SDR / sales development signal search"},
+    {"company": "Remote Appointment Setter Signal", "category": "remote", "location": "remote", "phone": "", "website": "https://www.google.com/search?q=%22looking+for+appointment+setter%22+remote", "signal": "Remote appointment setter signal search"}
 ]
 
 
@@ -83,6 +73,21 @@ def build_overpass_query(bbox):
     """
 
 
+def keyword_fit(category):
+    matched = []
+    category_text = (category or "").lower()
+
+    for term in INDUSTRY_TERMS:
+        if term in SALES_KEYWORDS:
+            matched.append(f"sales keyword: {term}")
+        elif term in category_text:
+            matched.append(f"category keyword: {term}")
+        elif TERM_TAGS.get(term):
+            matched.append(f"searched keyword: {term}")
+
+    return list(dict.fromkeys(matched))[:6]
+
+
 def normalize_business(item):
     tags = item.get("tags", {})
     name = tags.get("name")
@@ -92,22 +97,9 @@ def normalize_business(item):
     phone = tags.get("phone") or tags.get("contact:phone") or tags.get("mobile") or ""
     website = tags.get("website") or tags.get("contact:website") or tags.get("url") or ""
     category = tags.get("craft") or tags.get("shop") or tags.get("office") or "local business"
-    address = " ".join(filter(None, [
-        tags.get("addr:housenumber"),
-        tags.get("addr:street"),
-        tags.get("addr:city") or CITY
-    ]))
+    address = " ".join(filter(None, [tags.get("addr:housenumber"), tags.get("addr:street"), tags.get("addr:city") or CITY]))
 
-    return {
-        "company": name,
-        "phone": phone,
-        "website": website,
-        "category": category,
-        "location": CITY,
-        "address": address,
-        "osm_id": item.get("id"),
-        "osm_type": item.get("type")
-    }
+    return {"company": name, "phone": phone, "website": website, "category": category, "location": CITY, "address": address, "keyword_fit": keyword_fit(category)}
 
 
 def fetch_local():
@@ -148,15 +140,18 @@ def score_business(b):
         matched.append("no website listed")
     else:
         matched.append("website listed")
-    if b.get("category") in ["plumber", "roofer", "hvac", "electrician", "computer"]:
+    if b.get("category") in ["plumber", "roofer", "hvac", "electrician", "computer", "trade"]:
         score += 10
         matched.append("high-value SMB niche")
-    return min(score, 100), matched
+    matched.extend(b.get("keyword_fit", []))
+    return min(score, 100), list(dict.fromkeys(matched))
 
 
 def likely_need(b):
     if MODE == "remote":
         return "Remote sales / SDR / appointment-setting research"
+    if any(term in SALES_KEYWORDS for term in INDUSTRY_TERMS):
+        return "Sales outreach / appointment setting / lead generation"
     if b.get("phone") and not b.get("website"):
         return "Website + local lead generation"
     if not b.get("phone"):
@@ -167,6 +162,8 @@ def likely_need(b):
 def recommended_action(b):
     if MODE == "remote":
         return "Open source link and manually identify the poster/company; pitch remote SDR or appointment-setting help."
+    if any(term in SALES_KEYWORDS for term in INDUSTRY_TERMS):
+        return f"Call {b.get('phone') or 'after manual lookup'}; offer appointment setting or lead follow-up tied to revenue."
     if b.get("phone"):
         return f"Call {b.get('phone')}; offer to improve local visibility and capture more calls."
     return "Research phone/website manually; pitch profile cleanup and local lead generation."
@@ -176,19 +173,8 @@ def to_lead(b):
     score, matched = score_business(b)
     website = b.get("website") or ""
     url = website if website.startswith("http") else ("https://" + website if website else "#")
-    signal = b.get("signal") or f"Category: {b.get('category', 'local business')} | Phone: {b.get('phone') or 'not listed'} | Website: {b.get('website') or 'not listed'} | Address: {b.get('address') or b.get('location', 'not listed')}"
-    return {
-        "score": score,
-        "company": b.get("company"),
-        "title": f"{b.get('company')} — {b.get('location', CITY)}",
-        "signal_summary": f"Mode: {MODE} | {signal}",
-        "likely_need": likely_need(b),
-        "recommended_action": recommended_action(b),
-        "source": "OpenStreetMap / Overpass API" if MODE == "local" else "Remote signal seed",
-        "url": url,
-        "matched_terms": [MODE] + matched,
-        "published": str(datetime.now().date())
-    }
+    signal = b.get("signal") or f"Keywords: {', '.join(INDUSTRY_TERMS)} | Category: {b.get('category', 'local business')} | Phone: {b.get('phone') or 'not listed'} | Website: {b.get('website') or 'not listed'} | Address: {b.get('address') or b.get('location', 'not listed')}"
+    return {"score": score, "company": b.get("company"), "title": f"{b.get('company')} — {b.get('location', CITY)}", "signal_summary": f"Mode: {MODE} | {signal}", "likely_need": likely_need(b), "recommended_action": recommended_action(b), "source": "OpenStreetMap / Overpass API" if MODE == "local" else "Remote signal seed", "url": url, "matched_terms": [MODE] + matched, "published": str(datetime.now().date())}
 
 
 def main():
