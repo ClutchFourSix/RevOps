@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevOps Hidden Job Radar</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel2: #1f2937;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --good: #22c55e;
+      --mid: #eab308;
+      --bad: #ef4444;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      padding: 28px 20px;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+
+    main { padding: 20px; }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 180px 180px;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    button {
+      cursor: pointer;
+      background: #0369a1;
+      border-color: #0284c7;
+      font-weight: bold;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .card .label { color: var(--muted); font-size: 13px; }
+    .card .value { font-size: 26px; font-weight: bold; margin-top: 6px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      border-radius: 14px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    th {
+      background: var(--panel2);
+      color: #cbd5e1;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tr:hover { background: #172033; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .score {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .high { color: var(--good); }
+    .medium { color: var(--mid); }
+    .low { color: var(--bad); }
+
+    .pill {
+      display: inline-block;
+      margin: 2px 4px 2px 0;
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: #cbd5e1;
+      font-size: 12px;
+      background: #0b1220;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 30px;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .controls, .stats { grid-template-columns: 1fr; }
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--border); padding: 10px; }
+      td { border-bottom: none; padding: 8px 4px; }
+      td::before { content: attr(data-label); display: block; color: var(--muted); font-size: 12px; margin-bottom: 3px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RevOps Hidden Job Radar</h1>
+    <p>Find companies showing pre-hiring signals: growth, operational pain, sales bottlenecks, missed follow-up, and public requests for help before those needs become crowded job-board postings.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" placeholder="Search title, signal, source, or need..." />
+      <select id="minScore">
+        <option value="0">All scores</option>
+        <option value="40">40+ signal</option>
+        <option value="60">60+ strong</option>
+        <option value="80">80+ urgent</option>
+      </select>
+      <button id="refresh">Refresh</button>
+    </section>
+
+    <section class="stats">
+      <div class="card"><div class="label">Total Leads</div><div class="value" id="total">0</div></div>
+      <div class="card"><div class="label">Strong Leads</div><div class="value" id="strong">0</div></div>
+      <div class="card"><div class="label">Highest Score</div><div class="value" id="highest">0</div></div>
+      <div class="card"><div class="label">Last Updated</div><div class="value" id="updated" style="font-size:18px;">—</div></div>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Score</th>
+          <th>Company / Title</th>
+          <th>Signal</th>
+          <th>Likely Need</th>
+          <th>Action</th>
+          <th>Terms</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </main>
+
+  <script>
+    let leads = [];
+
+    const sampleLeads = [
+      {
+        score: 85,
+        company: "Example MSP",
+        title: "Owner says team is overwhelmed with new client onboarding",
+        signal_summary: "Growth plus operations pain. Possible need for SDR, RevOps assistant, onboarding support, or follow-up help.",
+        likely_need: "RevOps / appointment setting / onboarding support",
+        recommended_action: "Call owner and offer to organize follow-up and sales pipeline cleanup.",
+        source: "Sample Data",
+        url: "#",
+        matched_terms: ["overwhelmed", "new clients", "follow-up"],
+        published: "sample"
+      },
+      {
+        score: 70,
+        company: "Example Home Service Company",
+        title: "Contractor mentions missed calls and too many estimates",
+        signal_summary: "Missed revenue signal. This company may need call handling, appointment setting, or lead response help.",
+        likely_need: "Appointment setter / inbound lead follow-up",
+        recommended_action: "Pitch a missed-call recovery and estimate-booking service.",
+        source: "Sample Data",
+        url: "#",
+        matched_terms: ["missed calls", "too many leads"],
+        published: "sample"
+      }
+    ];
+
+    function scoreClass(score) {
+      if (score >= 70) return "high";
+      if (score >= 40) return "medium";
+      return "low";
+    }
+
+    function render() {
+      const q = document.getElementById("search").value.toLowerCase();
+      const minScore = Number(document.getElementById("minScore").value);
+      const rows = document.getElementById("rows");
+
+      const filtered = leads.filter(item => {
+        const text = JSON.stringify(item).toLowerCase();
+        return item.score >= minScore && text.includes(q);
+      });
+
+      document.getElementById("total").textContent = filtered.length;
+      document.getElementById("strong").textContent = filtered.filter(x => x.score >= 70).length;
+      document.getElementById("highest").textContent = filtered.length ? Math.max(...filtered.map(x => x.score)) : 0;
+      document.getElementById("updated").textContent = new Date().toLocaleDateString();
+
+      if (!filtered.length) {
+        rows.innerHTML = `<tr><td colspan="6" class="empty">No matching leads yet. Run the scanner or loosen filters.</td></tr>`;
+        return;
+      }
+
+      rows.innerHTML = filtered.map(item => `
+        <tr>
+          <td data-label="Score"><span class="score ${scoreClass(item.score)}">${item.score}</span></td>
+          <td data-label="Company / Title"><strong>${item.company || "Unknown"}</strong><br><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a><br><small>${item.source || "Unknown source"}</small></td>
+          <td data-label="Signal">${item.signal_summary || "—"}</td>
+          <td data-label="Likely Need">${item.likely_need || "—"}</td>
+          <td data-label="Action">${item.recommended_action || "—"}</td>
+          <td data-label="Terms">${(item.matched_terms || []).map(t => `<span class="pill">${t}</span>`).join("")}</td>
+        </tr>
+      `).join("");
+    }
+
+    async function loadLeads() {
+      try {
+        const response = await fetch("./leads.json?cache=" + Date.now());
+        if (!response.ok) throw new Error("No leads file");
+        leads = await response.json();
+        if (!Array.isArray(leads) || leads.length === 0) leads = sampleLeads;
+      } catch (err) {
+        leads = sampleLeads;
+      }
+      render();
+    }
+
+    document.getElementById("search").addEventListener("input", render);
+    document.getElementById("minScore").addEventListener("change", render);
+    document.getElementById("refresh").addEventListener("click", loadLeads);
+    loadLeads();
+  </script>
+</body>
+</html>
