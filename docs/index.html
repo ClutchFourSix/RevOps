@@ -15,8 +15,9 @@
     header { padding: 28px 20px; background: linear-gradient(135deg, #0f172a, #1e293b); border-bottom: 1px solid var(--border); }
     header h1 { margin: 0 0 8px; font-size: 30px; color: var(--accent); }
     header p { margin: 0; color: var(--muted); max-width: 950px; line-height: 1.5; }
+    .version { display:inline-block; margin-top:12px; padding:5px 10px; border:1px solid var(--border); border-radius:999px; color:#cbd5e1; background:#0b1220; font-size:12px; }
     main { padding: 20px; }
-    .controls { display: grid; grid-template-columns: 1fr 170px 150px 150px; gap: 12px; margin-bottom: 12px; }
+    .controls { display: grid; grid-template-columns: 1fr 170px 170px 150px; gap: 12px; margin-bottom: 12px; }
     input, select, button { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--panel); color: var(--text); font-size: 14px; }
     button { cursor: pointer; background: #0369a1; border-color: #0284c7; font-weight: bold; }
     button.secondary { background: #1f2937; border-color: var(--border); }
@@ -40,15 +41,16 @@
   <header>
     <h1>RevOps Hidden Job Radar</h1>
     <p>Find companies showing pre-hiring signals: growth, operational pain, sales bottlenecks, missed follow-up, and public requests for help before those needs become crowded job-board postings.</p>
+    <span class="version">Dashboard v0.3 — filter button verified</span>
   </header>
   <main>
     <section class="controls">
-      <input id="search" placeholder="Filter results, e.g. remote sales, MSP, appointment setter..." />
+      <input id="search" placeholder="Filter collected leads, e.g. remote sales, MSP, appointment setter..." />
       <select id="minScore"><option value="0">All scores</option><option value="40">40+ signal</option><option value="60">60+ strong</option><option value="80">80+ urgent</option></select>
-      <button id="applySearch">Search / Filter</button>
+      <button id="applySearch">Apply Filter</button>
       <button id="refresh" class="secondary">Reload Data</button>
     </section>
-    <p class="hint"><strong>Note:</strong> this box filters the leads already collected by the scanner. To collect fresh leads, run the GitHub Action named <strong>Hidden Job Radar Scanner</strong>. The dashboard will then reload <code>docs/leads.json</code>.</p>
+    <p class="hint"><strong>Important:</strong> this dashboard cannot directly scan the web from GitHub Pages. It filters the collected leads in <code>docs/leads.json</code>. To collect fresh leads, run the GitHub Action named <strong>Hidden Job Radar Scanner</strong>, then press <strong>Reload Data</strong>.</p>
     <section class="stats">
       <div class="card"><div class="label">Total Leads</div><div class="value" id="total">0</div></div>
       <div class="card"><div class="label">Strong Leads</div><div class="value" id="strong">0</div></div>
