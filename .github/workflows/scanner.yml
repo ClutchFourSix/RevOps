@@ -1,0 +1,28 @@
+name: Hidden Job Radar Scanner
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scanner.py
+
+      - run: |
+          git config user.name "bot"
+          git config user.email "bot@example.com"
+          git add docs/leads.json
+          git commit -m "update leads" || echo "no changes"
+          git push
