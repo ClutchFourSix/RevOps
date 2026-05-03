@@ -4,6 +4,23 @@ on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Scan mode: local or remote"
+        required: true
+        default: "local"
+        type: choice
+        options:
+          - local
+          - remote
+      location:
+        description: "City/region for local scan, e.g. Dallas, Texas"
+        required: false
+        default: "Dallas, Texas"
+      industry_terms:
+        description: "Comma-separated business categories or remote keywords"
+        required: false
+        default: "plumbing,roofing,hvac,it services,marketing agency"
 
 jobs:
   scan:
@@ -18,7 +35,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python scanner.py
+      - name: Run scanner
+        env:
+          SCAN_MODE: ${{ github.event.inputs.mode || 'local' }}
+          SCAN_LOCATION: ${{ github.event.inputs.location || 'Dallas, Texas' }}
+          INDUSTRY_TERMS: ${{ github.event.inputs.industry_terms || 'plumbing,roofing,hvac,it services,marketing agency' }}
+        run: python scanner.py
 
       - run: |
           git config user.name "bot"
