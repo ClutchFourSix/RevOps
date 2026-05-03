@@ -1,5 +1,8 @@
 name: Hidden Job Radar Scanner
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 13 * * *"
@@ -42,9 +45,10 @@ jobs:
           INDUSTRY_TERMS: ${{ github.event.inputs.industry_terms || 'plumbing,roofing,hvac,it services,marketing agency' }}
         run: python scanner.py
 
-      - run: |
-          git config user.name "bot"
-          git config user.email "bot@example.com"
+      - name: Commit scanner results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/leads.json
           git commit -m "update leads" || echo "no changes"
           git push
