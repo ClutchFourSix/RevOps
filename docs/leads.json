@@ -1,294 +1,252 @@
 [
   {
-    "score": 100,
-    "company": "Hyde Park Building & Material Supplies",
-    "title": "Hyde Park Building & Material Supplies \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: +1-773-268-5000 | Website: not listed | Address: 4630 South Cottage Grove Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-268-5000; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
     "score": 95,
-    "company": "EMD Headquarters",
-    "title": "EMD Headquarters \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-800-255-5355 | Website: not listed | Address: 7020 High Grove Boulevard Burr Ridge",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-800-255-5355; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Master Wholesale",
+    "title": "Master Wholesale \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-279-8363 | Website: not listed | Address: 12626 International Parkway Dallas, Texas",
+    "likely_need": "Website + local lead generation",
+    "recommended_action": "Call +1-972-279-8363; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 95,
-    "company": "Otherwise Incorporated",
-    "title": "Otherwise Incorporated \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 312 226 1144 | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 312 226 1144; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 95,
-    "company": "Junk OnDemand",
-    "title": "Junk OnDemand \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: junk_removal | Phone: +1-331-333-2877 | Website: not listed | Address: 875 North Michigan Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-331-333-2877; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 95,
-    "company": "Skyway Cement Comapny LLC",
-    "title": "Skyway Cement Comapny LLC \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 800 6431808 | Website: not listed | Address: 3020 East 103rd Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 800 6431808; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 95,
-    "company": "Chamberlain Group",
-    "title": "Chamberlain Group \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-630-279-3600 | Website: not listed | Address: 300 Windsor Drive Oak Brook",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-630-279-3600; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Harlem Plumbing Supply",
-    "title": "Harlem Plumbing Supply \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Holt CAT",
+    "title": "Holt CAT \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trade | Phone: +1-972-721-2000 | Website: https://www.holtcat.com/contact_us/locations/caterpillar_irving.aspx | Address: 2000 East Airport Freeway Irving",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-721-2000; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 80,
-    "company": "Fuller's",
-    "title": "Fuller's \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 80,
-    "company": "GMF Equipment",
-    "title": "GMF Equipment \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 80,
-    "company": "Pierce Chef's Mart",
-    "title": "Pierce Chef's Mart \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 80,
-    "company": "Elmwood Supply",
-    "title": "Elmwood Supply \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: +1-708-453-8241 | Website: https://elmsply.com/ | Address: 7306 West Grand Avenue Elmwood Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-708-453-8241; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://elmsply.com/",
+    "url": "https://www.holtcat.com/contact_us/locations/caterpillar_irving.aspx",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "R T Materials",
-    "title": "R T Materials \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: +13128108808 | Website: https://www.rtmaterials.com/ | Address: 2348 West Nelson Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +13128108808; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Hollywood Janitorial Supplies",
+    "title": "Hollywood Janitorial Supplies \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trade | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.rtmaterials.com/",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Conditioned Air Services",
+    "title": "Conditioned Air Services \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-972-263-1800 | Website: https://www.conditionedairservice.com/ | Address: 217 South Belt Line Road Grand Prairie",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-263-1800; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.conditionedairservice.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "A-Emergency Services & Restoration",
-    "title": "A-Emergency Services & Restoration \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: +17735296700 | Website: https://a-emergency.com/ | Address: 3101 North Western Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +17735296700; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Triumph Roofing and Construction",
+    "title": "Triumph Roofing and Construction \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: roofer | Phone: +1-972-332-1766 | Website: https://www.triumphroofing.net | Address: 820 F Avenue Plano",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-332-1766; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://a-emergency.com/",
+    "url": "https://www.triumphroofing.net",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Grainger",
-    "title": "Grainger \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Chill Air Concept",
+    "title": "Chill Air Concept \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-972-699-8080 | Website: https://chillair-concept.com | Address: 2804 Telluride Lane Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-699-8080; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 80,
-    "company": "Viking Electric",
-    "title": "Viking Electric \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: +1 847-353-6600 | Website: https://www.vikingelectric.com/about/location/fulton | Address: 1925 West Fulton Street chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 847-353-6600; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.vikingelectric.com/about/location/fulton",
+    "url": "https://chillair-concept.com",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Rocket Plumbing",
-    "title": "Rocket Plumbing \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: plumber | Phone: +1-773-906-7474 | Website: https://rocketplumbingnow.com/north-park-plumber/ | Address: 3443 West Foster Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-906-7474; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "American Pride Roofing",
+    "title": "American Pride Roofing \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: roofer | Phone: +1-214-761-6742 | Website: http://americanprideroofing.com/dallas-tx-roofing-company/ | Address: 4100 Spring Valley Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-761-6742; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://rocketplumbingnow.com/north-park-plumber/",
+    "url": "http://americanprideroofing.com/dallas-tx-roofing-company/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Heidler Hardwood Lumber Co",
-    "title": "Heidler Hardwood Lumber Co \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: 2559 South Damen Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Truficient Energy Solutions",
+    "title": "Truficient Energy Solutions \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-214-238-4350 | Website: https://truficient.com | Address: 808 Business Parkway Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-238-4350; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://truficient.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "DFW HVAC and Plumbing LLC",
+    "title": "DFW HVAC and Plumbing LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-972-479-9962 | Website: http://mbpheatingandair.info | Address: 1220 Executive Drive West Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-479-9962; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "http://mbpheatingandair.info",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Green Leaf Air",
+    "title": "Green Leaf Air \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-972-992-5006 | Website: https://greenleafair.com/ | Address: 1168 Commerce Drive Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-992-5006; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://greenleafair.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Vent-One LLC",
+    "title": "Vent-One LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1-214-538-5738 | Website: https://www.vent-onellc.com/ | Address: 3505 Locust Street Rowlett",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-538-5738; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.vent-onellc.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Texas General Constructors",
+    "title": "Texas General Constructors \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: roofer | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
@@ -296,17 +254,21 @@
       "phone not listed",
       "no website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Columbia Pipe & Supply Co.",
-    "title": "Columbia Pipe & Supply Co. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: 1120 West Pershing Road Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Outback Roofing",
+    "title": "Outback Roofing \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: roofer | Phone: not listed | Website: not listed | Address: 17618 Davenport Road Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
@@ -314,1553 +276,2203 @@
       "phone not listed",
       "no website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "South Shore Plumbing and Heating",
-    "title": "South Shore Plumbing and Heating \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: 7256-7266 South Exchange Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Cake Carousel",
+    "title": "Cake Carousel \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trade | Phone: +1-972-690-4628 | Website: https://cakecarousel.com/ | Address: 100 South Central Expressway Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-690-4628; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
+    "url": "https://cakecarousel.com/",
     "matched_terms": [
       "local",
-      "phone not listed",
-      "no website listed",
+      "phone listed",
+      "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Munch's Supply",
-    "title": "Munch's Supply \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Champs Restaurant Supply",
+    "title": "Champs Restaurant Supply \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trade | Phone: +1-972-888-3888 | Website: https://www.champsrestaurantsupply.com/ | Address: 430 North Coit Road Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-888-3888; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
+    "url": "https://www.champsrestaurantsupply.com/",
     "matched_terms": [
       "local",
-      "phone not listed",
-      "no website listed",
+      "phone listed",
+      "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 80,
-    "company": "Ferguson",
-    "title": "Ferguson \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: not listed | Address: 12431 Vincennes Avenue Blue Island",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Kloeckner Metals",
+    "title": "Kloeckner Metals \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trade | Phone: +1-214-630-6959 | Website: https://www.kloecknermetals.com/branches/dallas/ | Address: 4606 Singleton Boulevard Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-630-6959; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
+    "url": "https://www.kloecknermetals.com/branches/dallas/",
     "matched_terms": [
       "local",
-      "phone not listed",
-      "no website listed",
+      "phone listed",
+      "website listed",
       "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Versatile Refrigeration & Air LLC",
+    "title": "Versatile Refrigeration & Air LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1 469-820-4275 | Website: https://www.versatilerefrigerationllc.com | Address: E Hwy 80 Mesquite",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 469-820-4275; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.versatilerefrigerationllc.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "HM Tech Air Conditioning and Heating",
+    "title": "HM Tech Air Conditioning and Heating \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: hvac | Phone: +1 972-289-8129 | Website: https://hmtechacheating.com | Address: Hugh Walker Drive Mesquite",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 972-289-8129; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://hmtechacheating.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "category keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Results Roofing",
+    "title": "Results Roofing \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: roofer | Phone: +1-214-301-5533 | Website: https://resultsroofing.com/ | Address: 2828 E Trinity Mls Rd Carrollton",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-301-5533; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://resultsroofing.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 80,
+    "company": "Techville Computer Centers",
+    "title": "Techville Computer Centers \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: computer | Phone: +1 214 739 7033 | Website: https://techville.com/ | Address: Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 214 739 7033; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://techville.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "high-value SMB niche",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Logan Share",
-    "title": "Logan Share \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 2864 North Milwaukee Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "AMS-TAOS Inc.",
+    "title": "AMS-TAOS Inc. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 1001 Klein Road Plano",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "EDMAR Contractors Inc.",
-    "title": "EDMAR Contractors Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-222-0200 | Website: http://www.illinoissidinginstaller.com | Address: 1515 West Waveland Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-222-0200; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Cisco Systems Inc, Richardson Campus",
+    "title": "Cisco Systems Inc, Richardson Campus \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 2200E President George Bush Highway Richardson",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "http://www.illinoissidinginstaller.com",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "US Xpress",
+    "title": "US Xpress \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Frozen Fire",
+    "title": "Frozen Fire \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: +1-214-745-3456 | Website: https://www.frozenfire.com/ | Address: 325 North Saint Paul Street Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-745-3456; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.frozenfire.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Conversant Media",
-    "title": "Conversant Media \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 101 North Wacker Drive Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Standing Dog Interactive",
+    "title": "Standing Dog Interactive \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-696-9600 | Website: https://www.standingdog.com/ | Address: 6060 North Central Expressway Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-696-9600; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.standingdog.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Verizon",
+    "title": "Verizon \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 400 International Parkway Richardson",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Braintree",
-    "title": "Braintree \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Structure Solutions",
+    "title": "Structure Solutions \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Common Desk",
+    "title": "Common Desk \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 2919 Commerce Street Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
   },
   {
     "score": 70,
     "company": "Shred Nations",
-    "title": "Shred Nations \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-239-3603 | Website: https://www.shrednations.com/chicago/ | Address: 201 West Lake Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-239-3603; offer appointment setting or lead follow-up tied to revenue.",
+    "title": "Shred Nations \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-764-7276 | Website: https://www.shrednations.com/dallas/ | Address: 3109 Knox Street Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-764-7276; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.shrednations.com/chicago/",
+    "url": "https://www.shrednations.com/dallas/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "BMW Technology Corporation",
-    "title": "BMW Technology Corporation \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 100 North Riverside Plaza Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Record Nations",
+    "title": "Record Nations \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-680-3484 | Website: https://www.recordnations.com/featured/dallas | Address: 2323 Farrington St Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-680-3484; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "DM Industrial Janitorial Service, Inc.",
-    "title": "DM Industrial Janitorial Service, Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-708-458-2330 | Website: http://www.dmindustrialjanitorialserviceinc.com | Address: 7525 98th Place Bridgeview",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-708-458-2330; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "http://www.dmindustrialjanitorialserviceinc.com",
+    "url": "https://www.recordnations.com/featured/dallas",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "My Master App",
+    "title": "My Master App \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1 214 8811596 | Website: https://www.mymasterapp.com | Address: 2101 Cedar Springs Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 214 8811596; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.mymasterapp.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Star Foundation Repair",
+    "title": "Star Foundation Repair \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-567-1600 | Website: https://www.starfoundationrepair.com/ | Address: 205 Executive Way Desoto",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-567-1600; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.starfoundationrepair.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
   },
   {
     "score": 70,
     "company": "Bain & Company",
-    "title": "Bain & Company \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +13125419500 | Website: http://www.bain.com/offices/chicago/en_us/index.aspx | Address: 190 South LaSalle Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +13125419500; offer appointment setting or lead follow-up tied to revenue.",
+    "title": "Bain & Company \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-777-1717 | Website: http://www.bain.com/offices/dallas/en_us/index.aspx | Address: 1717 McKinney Avenue Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-777-1717; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "http://www.bain.com/offices/chicago/en_us/index.aspx",
+    "url": "http://www.bain.com/offices/dallas/en_us/index.aspx",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "WNUK Construction Co",
-    "title": "WNUK Construction Co \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: West Roosevelt Road Berwyn",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Omni Hotels & Resorts",
+    "title": "Omni Hotels & Resorts \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-871-5600 | Website: https://www.omnihotels.com/ | Address: 4001 Maple Avenue Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-871-5600; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "SteelSeries",
-    "title": "SteelSeries \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 656 West Randolph Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "K9 University Chicago",
-    "title": "K9 University Chicago \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-773-533-5959 | Website: https://k9uchicago.com | Address: 2945 West Lake Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-533-5959; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://k9uchicago.com",
+    "url": "https://www.omnihotels.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "BMW Technology",
-    "title": "BMW Technology \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 540 West Madison Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Starfleet Couriers",
+    "title": "Starfleet Couriers \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-960-0044 | Website: http://starfleetnow.com | Address: 1604 Nantucket Drive Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-960-0044; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "ChitownCabbie Taxi Service",
-    "title": "ChitownCabbie Taxi Service \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 2 North State Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Midwest Restaurant Equipment and Supply",
-    "title": "Midwest Restaurant Equipment and Supply \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-773-254-1288 | Website: https://www.mwesupplymfg.com/ | Address: 345 West 25th Place Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-254-1288; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.mwesupplymfg.com/",
+    "url": "http://starfleetnow.com",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Rand McNally",
-    "title": "Rand McNally \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 8725 West Higgins Road Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "CarOffer LLC",
+    "title": "CarOffer LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Micromation, Inc.",
-    "title": "Micromation, Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 773-528-9906 | Website: https://micromation.net/ | Address: 2502 North Clark Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 773-528-9906; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "QuikTrip Maintenance Office",
+    "title": "QuikTrip Maintenance Office \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://micromation.net/",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Weitzman",
+    "title": "Weitzman \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 3102 Maple Avenue Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Xenia Tree Renovations",
+    "title": "Xenia Tree Renovations \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-514-1320 | Website: https://xeniatree.com/ | Address: 1400 Preston Road Plano",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-514-1320; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://xeniatree.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Rome Metal Manufacturing Inc",
-    "title": "Rome Metal Manufacturing Inc \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-773-287-1755 | Website: http://romemm.com | Address: 4612 West Ohio Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-287-1755; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Razberi Technologies",
+    "title": "Razberi Technologies \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 13755 Hutton Drive Farmers Branch",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "http://romemm.com",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Q Tech Heat Treat Inc.",
+    "title": "Q Tech Heat Treat Inc. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 2825 Ruder Street Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Paranet Solutions",
+    "title": "Paranet Solutions \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-855-727-2638 | Website: https://www.paranet.com | Address: 5001 Spring Valley Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-855-727-2638; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.paranet.com",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Goodbay Technologies",
-    "title": "Goodbay Technologies \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-470-6060 | Website: https://goodbaytech.com/ | Address: 3659 North Kedzie Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-470-6060; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Dallas Trucking Company",
+    "title": "Dallas Trucking Company \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-974-0557 | Website: https://www.ustruckingcompany.com/dallas-trucking-company | Address: 1324 Coleman Avenue Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-974-0557; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://goodbaytech.com/",
+    "url": "https://www.ustruckingcompany.com/dallas-trucking-company",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Precision Plastic Ball Company",
-    "title": "Precision Plastic Ball Company \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-847-678-2255 | Website: https://www.precisionplasticball.com/ | Address: 10129 Pacific Avenue Franklin Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-847-678-2255; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Guardian Mortgage",
+    "title": "Guardian Mortgage \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-361-5626 | Website: https://winningwithwade.com/ | Address: 5910 North Central Expressway Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-361-5626; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.precisionplasticball.com/",
+    "url": "https://winningwithwade.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Sanchem, Inc.",
-    "title": "Sanchem, Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-800-621-1603 | Website: https://www.sanchem.com/ | Address: 1600 South Canal Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-800-621-1603; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Precision Mold Removal",
+    "title": "Precision Mold Removal \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-435-6614 | Website: https://precisionmoldremoval.com/dallas/ | Address: 5310 Harvest Hill Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-435-6614; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.sanchem.com/",
+    "url": "https://precisionmoldremoval.com/dallas/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Farmer's Fridge",
-    "title": "Farmer's Fridge \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-229-0099 | Website: https://www.farmersfridge.com/ | Address: 600 West Chicago Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-229-0099; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "id Software, Inc.",
+    "title": "id Software, Inc. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1 972 613 3589 | Website: https://www.idsoftware.com/ | Address: 1500 North Greenville Avenue Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 972 613 3589; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.farmersfridge.com/",
+    "url": "https://www.idsoftware.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Foxbox Digital",
-    "title": "Foxbox Digital \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-416-9997 | Website: https://www.foxbox.com | Address: 1720 West Division Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-416-9997; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Bioworld",
+    "title": "Bioworld \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 2112 Hurd Drive Irving",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.foxbox.com",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Dallas Network Services",
+    "title": "Dallas Network Services \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-214-696-6630 | Website: https://www.dallasnetworkservices.com/ | Address: 5641 SMU Boulevard Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-696-6630; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.dallasnetworkservices.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Cetera Labs",
-    "title": "Cetera Labs \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-800-775-5293 | Website: https://ceteralabs.com/ | Address: Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-800-775-5293; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Infor",
+    "title": "Infor \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: 14185 Dallas Parkway Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://ceteralabs.com/",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Synergistic Systems, Inc.",
+    "title": "Synergistic Systems, Inc. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-415-9217 | Website: https://www.e-ssy.com/ | Address: 888 South Greenville Avenue Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-415-9217; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.e-ssy.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Cetera Labs",
-    "title": "Cetera Labs \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 347-620-0902 | Website: https://ceteralabs.com/ | Address: 4422 North Ravenswood Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 347-620-0902; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Specialty Unlimited Agency LLC",
+    "title": "Specialty Unlimited Agency LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-905-9970 | Website: https://www.specialtyunlimitedagencyllc.com/ | Address: 1140 Empire Central Drive Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-905-9970; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://ceteralabs.com/",
+    "url": "https://www.specialtyunlimitedagencyllc.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Access Casters",
-    "title": "Access Casters \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-877-881-6814 | Website: https://www.accesscasters.com/ | Address: 10141 South Western Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-877-881-6814; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Polytronix",
+    "title": "Polytronix \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.accesscasters.com/",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "CleanPart",
+    "title": "CleanPart \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Assa Abloy",
+    "title": "Assa Abloy \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Trammell Crow Residential",
+    "title": "Trammell Crow Residential \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Authentix Inc",
+    "title": "Authentix Inc \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-737-4400 | Website: https://www.authentix.com/ | Address: 100 Excel Parkway Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-737-4400; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.authentix.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "American Science & Surplus",
-    "title": "American Science & Surplus \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 7410 North Lehigh Avenue Niles",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "ADP",
+    "title": "ADP \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-800-225-5237 | Website: https://www.adp.com/ | Address: 2735 North Stemmons Freeway Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-800-225-5237; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Sunline Services Inc.",
-    "title": "Sunline Services Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-773-601-1900 | Website: https://sunlineservices.com/ | Address: 9950 Lawrence Avenue Schiller Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-601-1900; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://sunlineservices.com/",
+    "url": "https://www.adp.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "events.org",
-    "title": "events.org \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-847-513-6460 | Website: https://events.org/ | Address: 118 North Clinton Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-847-513-6460; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Modern Store Fixtures",
+    "title": "Modern Store Fixtures \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-634-2505 | Website: http://www.modernstore.com | Address: 13345 Peyton Drive Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-634-2505; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://events.org/",
+    "url": "http://www.modernstore.com",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Bank of America",
-    "title": "Bank of America \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 110 North Wacker Drive Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "RealPage",
+    "title": "RealPage \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "UChicago Research Computing Center - Walk-in Lab",
-    "title": "UChicago Research Computing Center - Walk-in Lab \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-773-795-2667 | Website: https://rcc.uchicago.edu/ | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-773-795-2667; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Boston Consulting Group",
+    "title": "Boston Consulting Group \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-849-1500 | Website: https://www.bcg.com/offices/dallas/default.aspx | Address: 2051 North Harwood Street Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-849-1500; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://rcc.uchicago.edu/",
+    "url": "https://www.bcg.com/offices/dallas/default.aspx",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Mondel\u0113z International Global Headquarters",
-    "title": "Mondel\u0113z International Global Headquarters \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 905 West Fulton Market Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "ADT Security",
+    "title": "ADT Security \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Korean Air Cargo",
-    "title": "Korean Air Cargo \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "12AM Agency",
+    "title": "12AM Agency \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: +1-800-863-7958 | Website: https://www.12amagency.com/ | Address: 1920 McKinney Avenue Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-800-863-7958; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Turkish Airlines",
-    "title": "Turkish Airlines \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Virgin Atlantic Cargo",
-    "title": "Virgin Atlantic Cargo \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Polar Air Cargo",
-    "title": "Polar Air Cargo \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "British Airways",
-    "title": "British Airways \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Atlas Air",
-    "title": "Atlas Air \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Air General O'hare",
-    "title": "Air General O'hare \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "IAG Cargo",
-    "title": "IAG Cargo \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Cargolux Airlines",
-    "title": "Cargolux Airlines \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "China Cargo Airlines",
-    "title": "China Cargo Airlines \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "EVA Air",
-    "title": "EVA Air \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Menzies Aviation ORD",
-    "title": "Menzies Aviation ORD \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Air Canada",
-    "title": "Air Canada \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "BAX Global (Former Burlington Northern)",
-    "title": "BAX Global (Former Burlington Northern) \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Dnata",
-    "title": "Dnata \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "United Airlines Cargo",
-    "title": "United Airlines Cargo \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Google",
-    "title": "Google \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 210 North Carpenter Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Google",
-    "title": "Google \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 320 North Morgan Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "The MX Group",
-    "title": "The MX Group \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-630-654-0170 | Website: https://www themxgroup.com/ | Address: 7020 High Grove Boulevard chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-630-654-0170; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://www themxgroup.com/",
+    "url": "https://www.12amagency.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Relativity",
-    "title": "Relativity \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 231 South LaSalle Street chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "First American Title",
+    "title": "First American Title \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Troost Cemeteries",
-    "title": "Troost Cemeteries \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 877-684-6731 | Website: https://troostcems.com | Address: 3000 West 119th Street chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 877-684-6731; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Alamo Title",
+    "title": "Alamo Title \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://troostcems.com",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Cloud Communications Group",
+    "title": "Cloud Communications Group \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-972-755-3070 | Website: https://cloudcomgroup.net/ | Address: 2727 Lyndon B Johnson Freeway Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-755-3070; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://cloudcomgroup.net/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Braddock Investment Group Inc",
-    "title": "Braddock Investment Group Inc \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-564-4058 | Website: https://www.braddockinvestmentgroup.com | Address: 1720 West Division Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-564-4058; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Action Shred of Texas",
+    "title": "Action Shred of Texas \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-352-0113 | Website: https://actionshred.com/ | Address: Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-352-0113; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.braddockinvestmentgroup.com",
+    "url": "https://actionshred.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Shure",
-    "title": "Shure \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 5800 West Touhy Avenue Niles",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "ERP Logic",
+    "title": "ERP Logic \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-972-401-3771 | Website: https://www.erplogic.com | Address: 7301 N Hwy 161 Irving",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-401-3771; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Hydro, Inc. Headquarters",
-    "title": "Hydro, Inc. Headquarters \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-312-738-3000 | Website: https://hydroinc.com | Address: 834 West Madison Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-312-738-3000; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://hydroinc.com",
+    "url": "https://www.erplogic.com",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Northern Trust Bank",
-    "title": "Northern Trust Bank \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 50 South LaSalle Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "EC Maintenance",
+    "title": "EC Maintenance \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: painter | Phone: +1-972-439-5151 | Website: http://www.ecmaintenancee.com/ | Address: Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-439-5151; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Northern Trust Bank",
-    "title": "Northern Trust Bank \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 150-156 West Monroe Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "DT Equipment Company",
-    "title": "DT Equipment Company \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1 773 337 8400 | Website: https://dteci.com/ | Address: 5519 West Montrose Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1 773 337 8400; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://dteci.com/",
+    "url": "http://www.ecmaintenancee.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Tripp Lite",
-    "title": "Tripp Lite \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 1061-1105 West 35th Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Frontline Fire Protection Inc",
+    "title": "Frontline Fire Protection Inc \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-818-9565 | Website: https://www.flfpi.com/ | Address: 17815 Davenport Road Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-818-9565; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Goose Island Barrel Warehouse",
-    "title": "Goose Island Barrel Warehouse \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 505 North Sacramento Boulevard chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "WaterSaver Faucet Co.",
-    "title": "WaterSaver Faucet Co. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 701 West Erie Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Discover Customer Care Center",
-    "title": "Discover Customer Care Center \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 8560 South Cottage Grove Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "McDonald\u2019s HQ",
-    "title": "McDonald\u2019s HQ \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 110 North Carpenter Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "#",
-    "matched_terms": [
-      "local",
-      "phone not listed",
-      "no website listed",
-      "sales keyword: appointment setter"
-    ],
-    "published": "2026-05-03"
-  },
-  {
-    "score": 70,
-    "company": "Norman Filter Company",
-    "title": "Norman Filter Company \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-708-498-4761 | Website: https://www.normanfilters.com/ | Address: 9850 Industrial Drive Bridgeview",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-708-498-4761; offer appointment setting or lead follow-up tied to revenue.",
-    "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.normanfilters.com/",
+    "url": "https://www.flfpi.com/",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "Big Ten Conference",
-    "title": "Big Ten Conference \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: not listed | Address: 5400 Park Place Rosemont",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "The BMS Company",
+    "title": "The BMS Company \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: +1-972-449-7117 | Website: https://thebmscompany.com/ | Address: 8330 Meadow Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-449-7117; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://thebmscompany.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Wells Fargo",
+    "title": "Wells Fargo \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
     "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
       "no website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 70,
-    "company": "A. Lopez Truck Tire Service Inc.",
-    "title": "A. Lopez Truck Tire Service Inc. \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: +1-708-780-6748 | Website: http://alopeztrucktires.com | Address: 1201 West Vermont Street Calumet Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call +1-708-780-6748; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Tech Mahindra",
+    "title": "Tech Mahindra \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "http://alopeztrucktires.com",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "West Wind Building Corp.",
+    "title": "West Wind Building Corp. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 6705 Levelland Road Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Ponder Company, Inc.",
+    "title": "Ponder Company, Inc. \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 6825 Levelland Road Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Metro Pest Control",
+    "title": "Metro Pest Control \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 17630 Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "EPCS Environmental LLC",
+    "title": "EPCS Environmental LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: builder | Phone: not listed | Website: not listed | Address: 17630 Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "UMI",
+    "title": "UMI \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: not listed | Website: not listed | Address: 1081 Ohio Drive Plano",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Water Softeners of Dallas",
+    "title": "Water Softeners of Dallas \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-253-8165 | Website: https://www.allentxwatersofteners.com/locations/dallas | Address: 11816 Inwood Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-253-8165; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.allentxwatersofteners.com/locations/dallas",
     "matched_terms": [
       "local",
       "phone listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Keen Edge",
-    "title": "Keen Edge \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://keenedgeco.com/ | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Texas Sod Installers Dallas",
+    "title": "Texas Sod Installers Dallas \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-283-5984 | Website: https://www.texassodinstallers.com/locations/dallas | Address: 5955 Alpha Road Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-283-5984; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://keenedgeco.com/",
+    "url": "https://www.texassodinstallers.com/locations/dallas",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "FloorRescue, Inc",
+    "title": "FloorRescue, Inc \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Specialty Sales",
-    "title": "Specialty Sales \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.specialtysalesinc.com/ | Address: 4242 South 1st Avenue Lyons",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "CyrusOne",
+    "title": "CyrusOne \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.specialtysalesinc.com/",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Ferguson",
-    "title": "Ferguson \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.ferguson.com/store/il/niles/plumbingpvf-1643 | Address: 7337 North Harlem Avenue Niles",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Librarica",
+    "title": "Librarica \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: 6220 Campbell Road Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.ferguson.com/store/il/niles/plumbingpvf-1643",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Ferguson",
-    "title": "Ferguson \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.ferguson.com/store/il/chicago/hvac-1781 | Address: 3509 West Addison Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "UMI",
+    "title": "UMI \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: not listed | Website: not listed | Address: 6220 Campbell Road Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.ferguson.com/store/il/chicago/hvac-1781",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Ferguson",
-    "title": "Ferguson \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.build.com/showroom/branch/chicago-il-showroom-1124 | Address: 3914 North Western Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "10+3",
+    "title": "10+3 \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 2001 Irving Boulevard Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.build.com/showroom/branch/chicago-il-showroom-1124",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Grainger",
-    "title": "Grainger \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.grainger.com/branch/Chicago-Branch-139 | Address: 2354-2356 South Ashland Avenue chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "CMIT Solutions of Richardson",
+    "title": "CMIT Solutions of Richardson \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-469-453-6010 | Website: https://cmitsolutions.com/richardson/ | Address: 3400 North Central Expressway Richardson",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-453-6010; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.grainger.com/branch/Chicago-Branch-139",
+    "url": "https://cmitsolutions.com/richardson/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Plano Home Window Replacement",
+    "title": "Plano Home Window Replacement \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-551-4499 | Website: https://planohomewindowreplacement.com/ | Address: 1025 Preston Road Plano",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-551-4499; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://planohomewindowreplacement.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Ethos Group",
+    "title": "Ethos Group \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 370 West Las Colinas Boulevard Irving",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Graybar",
-    "title": "Graybar \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.graybar.com/store/chil/il/chicago | Address: 539 West 14th Place Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Uber",
+    "title": "Uber \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.graybar.com/store/chil/il/chicago",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "City Welding Sales",
-    "title": "City Welding Sales \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://citywelding.com/ | Address: 7310 North Kedzie Avenue Skokie",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Westdale",
+    "title": "Westdale \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://citywelding.com/",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Banner Plumbing Supply",
-    "title": "Banner Plumbing Supply \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://bannerplumbing.com/ | Address: 7255 South Cottage Grove Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Bestow",
+    "title": "Bestow \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://bannerplumbing.com/",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Grainger",
-    "title": "Grainger \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.grainger.com/branch/Franklin-Park-Branch-156 | Address: 3240 North Mannheim Road Franklin Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Worldwide Express",
+    "title": "Worldwide Express \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.grainger.com/branch/Franklin-Park-Branch-156",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Grainger",
-    "title": "Grainger \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.grainger.com/branch/Alsip-Branch-150 | Address: 6001 West 115th Street Alsip",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "A & A Pallet Repair",
+    "title": "A & A Pallet Repair \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-398-3555 | Website: https://aapalletrepair.com | Address: 6932 C F Hawn Freeway Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-398-3555; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.grainger.com/branch/Alsip-Branch-150",
+    "url": "https://aapalletrepair.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Southwest Airlines",
+    "title": "Southwest Airlines \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-214-792-4000 | Website: https://www.southwest.com/ | Address: 2702 Love Field Drive Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-792-4000; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.southwest.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Austin Bryant Consulting",
+    "title": "Austin Bryant Consulting \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: +1 972-476-7161 | Website: https://austinbryantconsulting.com/ | Address: 2 Eastvale Pl Plano",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 972-476-7161; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://austinbryantconsulting.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Weed And Whiskey Television",
+    "title": "Weed And Whiskey Television \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: not listed | Address: 2910 Commerce Street Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
-    "score": 55,
-    "company": "Bricks Incorporated",
-    "title": "Bricks Incorporated \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: trade | Phone: not listed | Website: https://www.bricksinc.net/ | Address: 3425 South Kedzie Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "score": 70,
+    "company": "Good Work",
+    "title": "Good Work \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-214-890-4111 | Website: https://simplygoodwork.com/ | Address: 2122 Kidwell Street Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-214-890-4111; offer to improve local visibility and capture more calls.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.bricksinc.net/",
+    "url": "https://simplygoodwork.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "REV Robotics",
+    "title": "REV Robotics \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-844-255-2267 | Website: https://www.revrobotics.com/ | Address: 2941 Commodore Drive Carrollton",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-844-255-2267; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.revrobotics.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "AA&E Towing and Transport LLC",
+    "title": "AA&E Towing and Transport LLC \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-972-704-5282 | Website: https://aaetowing.com | Address: 4407 Singleton Boulevard Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-972-704-5282; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://aaetowing.com",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Suntronic",
+    "title": "Suntronic \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1 281 8799562 | Website: https://suntronicinc.com/ | Address: Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1 281 8799562; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://suntronicinc.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Blue Nova Logistics",
+    "title": "Blue Nova Logistics \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
     "matched_terms": [
       "local",
       "phone not listed",
-      "website listed",
-      "high-value SMB niche",
-      "sales keyword: appointment setter"
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "MyGarageFloors.com",
+    "title": "MyGarageFloors.com \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: +1-469-990-9990 | Website: https://mygaragefloors.com/service-area/garage-floor-coating-dallas-tx/ | Address: 18810 Preston Road B Dallas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-990-9990; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://mygaragefloors.com/service-area/garage-floor-coating-dallas-tx/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "MyGarageFloors.com",
+    "title": "MyGarageFloors.com \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: floorer | Phone: +1-469-990-9990 | Website: https://mygaragefloors.com/service-area/garage-floor-coating-addison/ | Address: 4006 Belt Line Road Addison",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-469-990-9990; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://mygaragefloors.com/service-area/garage-floor-coating-addison/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Cyber Wise Guy",
+    "title": "Cyber Wise Guy \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: +1-682-337-9611 | Website: https://cyberwiseguy.com/ | Address: Dallas, Texas",
+    "likely_need": "Lead generation / visibility improvement",
+    "recommended_action": "Call +1-682-337-9611; offer to improve local visibility and capture more calls.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://cyberwiseguy.com/",
+    "matched_terms": [
+      "local",
+      "phone listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 70,
+    "company": "Horizon Health",
+    "title": "Horizon Health \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: not listed | Address: 1965 Lakepointe Drive Lewisville",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "#",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "no website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Lapham-Hickey Steel",
-    "title": "Lapham-Hickey Steel \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.lapham-hickey.com/ | Address: 5500 West 73rd Street Bedford Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "LUSKY & ASSOCIATES",
+    "title": "LUSKY & ASSOCIATES \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: http://www.lusky.com/ | Address: 12720 Hillcrest Rd. Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.lapham-hickey.com/",
+    "url": "http://www.lusky.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Norman Equipment",
-    "title": "Norman Equipment \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.normanequipment.com/ | Address: 9850 South Industrial Drive Bridgeview",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "DeTransportation Business",
+    "title": "DeTransportation Business \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://www.detransportationdallas.com/ | Address: 220 Peach Tree Drive Murphy",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.normanequipment.com/",
+    "url": "https://www.detransportationdallas.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Fotofab",
-    "title": "Fotofab \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.fotofab.com/ | Address: 3758 West Belmont Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Newmark Knight Frank",
+    "title": "Newmark Knight Frank \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://aranewmark.com | Address: 14114 North Dallas Parkway Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.fotofab.com/",
+    "url": "https://aranewmark.com",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "EbetterBook",
-    "title": "EbetterBook \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://ebetterbooks.com/download-quickbooks-desktop/qbd-2024/ | Address: chicago, il",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Transwestern",
+    "title": "Transwestern \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://transwestern.com | Address: Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://ebetterbooks.com/download-quickbooks-desktop/qbd-2024/",
+    "url": "https://transwestern.com",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Metra",
-    "title": "Metra \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://metra.com/ | Address: 547 West Jackson Boulevard Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "AEON Crystal",
+    "title": "AEON Crystal \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: trophy | Phone: not listed | Website: http://www.aeoncrystal.com/ | Address: 17815 Davenport Road Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://metra.com/",
+    "url": "http://www.aeoncrystal.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Chicago Mainfreight Transport",
-    "title": "Chicago Mainfreight Transport \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.mainfreight.com/en-nz/chicago-mainfreight-transport | Address: 10701 Franklin Avenue Franklin Park",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Supreme Lending - The Twins Group",
+    "title": "Supreme Lending - The Twins Group \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://thetwinsgroupsupreme.com/ | Address: 16775 Addison Road Addison",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.mainfreight.com/en-nz/chicago-mainfreight-transport",
+    "url": "https://thetwinsgroupsupreme.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "fairlife",
-    "title": "fairlife \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://fairlife.com/ | Address: 1001 West Adams Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Bethesda Game Studios Dallas",
+    "title": "Bethesda Game Studios Dallas \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://www.bethesdagamestudios.com/ | Address: 12404 Park Central Drive Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://fairlife.com/",
+    "url": "https://www.bethesdagamestudios.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Trilogy",
-    "title": "Trilogy \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.trilogyinc.org/ | Address: 1400 West Greenleaf Avenue Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Southwest Airlines Training Center (TOPS)",
+    "title": "Southwest Airlines Training Center (TOPS) \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://southwest.com/ | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.trilogyinc.org/",
+    "url": "https://southwest.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
   },
   {
     "score": 45,
-    "company": "Chicago Transit Authority Headquarters",
-    "title": "Chicago Transit Authority Headquarters \u2014 chicago, il",
-    "signal_summary": "Mode: local | Keywords: appointment setter | Category: company | Phone: not listed | Website: https://www.transitchicago.com/ | Address: 567 West Lake Street Chicago",
-    "likely_need": "Sales outreach / appointment setting / lead generation",
-    "recommended_action": "Call after manual lookup; offer appointment setting or lead follow-up tied to revenue.",
+    "company": "Action Video Service",
+    "title": "Action Video Service \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: it | Phone: not listed | Website: https://actionvideoservice.com/ | Address: 819 West Arapaho Road Richardson",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
     "source": "OpenStreetMap / Overpass API",
-    "url": "https://www.transitchicago.com/",
+    "url": "https://actionvideoservice.com/",
     "matched_terms": [
       "local",
       "phone not listed",
       "website listed",
-      "sales keyword: appointment setter"
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
     ],
-    "published": "2026-05-03"
+    "published": "2026-05-04"
+  },
+  {
+    "score": 45,
+    "company": "Victory Document Services",
+    "title": "Victory Document Services \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://www.victorydocuments.com/ | Address: Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.victorydocuments.com/",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 45,
+    "company": "Texas Instruments",
+    "title": "Texas Instruments \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: https://www.ti.com/ | Address: 12500 T I Blvd Dallas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.ti.com/",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 45,
+    "company": "Miller Ad Agency",
+    "title": "Miller Ad Agency \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: advertising_agency | Phone: not listed | Website: https://www.milleradagency.com/ | Address: 2711 Valley View Lane Farmers Branch",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "https://www.milleradagency.com/",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
+  },
+  {
+    "score": 45,
+    "company": "The Collonade",
+    "title": "The Collonade \u2014 Dallas, Texas",
+    "signal_summary": "Mode: local | Keywords: plumbing, roofing, hvac, it services, marketing agency | Category: company | Phone: not listed | Website: http://thecolonnadeaddison.com/PropertyInformation/PropertyProfile.axis | Address: 15305 Dallas North Tollway Dallas, Texas",
+    "likely_need": "Business profile cleanup / local presence",
+    "recommended_action": "Research phone/website manually; pitch profile cleanup and local lead generation.",
+    "source": "OpenStreetMap / Overpass API",
+    "url": "http://thecolonnadeaddison.com/PropertyInformation/PropertyProfile.axis",
+    "matched_terms": [
+      "local",
+      "phone not listed",
+      "website listed",
+      "searched keyword: plumbing",
+      "searched keyword: roofing",
+      "searched keyword: hvac",
+      "searched keyword: it services",
+      "searched keyword: marketing agency"
+    ],
+    "published": "2026-05-04"
   }
 ]
