@@ -1,0 +1,22 @@
+{
+  "queries": [
+    {
+      "signal": "Expanding Operations",
+      "query": "\"opening new office\" software company",
+      "min_score": 4,
+      "max_results": 5
+    },
+    {
+      "signal": "Commercial Expansion",
+      "query": "\"distribution center\" company expansion",
+      "min_score": 4,
+      "max_results": 5
+    },
+    {
+      "signal": "Funding and Hiring",
+      "query": "startup funding rapid growth",
+      "min_score": 5,
+      "max_results": 5
+    }
+  ]
+}
