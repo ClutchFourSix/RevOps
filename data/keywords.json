@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "growth",
+      "weight": 5,
+      "phrases": [
+        "expanding",
+        "opening new office",
+        "new location",
+        "rapid growth",
+        "growing team",
+        "scale operations",
+        "series a",
+        "series b",
+        "funding round"
+      ]
+    },
+    {
+      "name": "sales_and_ops",
+      "weight": 4,
+      "phrases": [
+        "crm",
+        "pipeline",
+        "lead generation",
+        "business development",
+        "sales operations",
+        "appointment setting",
+        "outbound"
+      ]
+    },
+    {
+      "name": "infrastructure",
+      "weight": 3,
+      "phrases": [
+        "warehouse",
+        "distribution center",
+        "fleet",
+        "logistics",
+        "construction",
+        "commercial expansion"
+      ]
+    }
+  ]
+}
