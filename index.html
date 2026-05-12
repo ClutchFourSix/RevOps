@@ -3,129 +3,280 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RevOps Hidden Job Radar</title>
+  <title>SeaVector Maritime Intelligence</title>
   <style>
     :root {
       color-scheme: dark;
-      --bg: #07111f;
-      --card: #101c2f;
-      --line: #26364f;
-      --text: #e8eef8;
-      --muted: #9fb0c7;
-      --accent: #7dd3fc;
+      --bg: #050b12;
+      --bg2: #071827;
+      --card: rgba(13, 24, 39, .92);
+      --card2: rgba(16, 31, 50, .92);
+      --line: #24364d;
+      --text: #e7eef8;
+      --muted: #93a7bf;
+      --accent: #38bdf8;
+      --accent2: #22d3ee;
       --good: #86efac;
+      --warn: #fbbf24;
+      --danger: #fb7185;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
+      min-height: 100vh;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: radial-gradient(circle at top, #10223d, var(--bg));
+      background:
+        radial-gradient(circle at 16% 0%, rgba(56,189,248,.24), transparent 26%),
+        radial-gradient(circle at 86% 8%, rgba(34,211,238,.12), transparent 24%),
+        linear-gradient(135deg, #03101b 0%, var(--bg) 44%, #091827 100%);
       color: var(--text);
     }
-    header { padding: 24px 16px 12px; max-width: 1100px; margin: auto; }
-    h1 { margin: 0; font-size: clamp(32px, 8vw, 58px); line-height: 1; letter-spacing: -0.04em; }
-    .subtitle { color: var(--muted); margin-top: 10px; max-width: 760px; }
-    main { max-width: 1100px; margin: auto; padding: 10px 16px 40px; }
-    .toolbar { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 18px 0; }
-    @media (min-width: 720px) { .toolbar { grid-template-columns: 1fr 180px 180px; } }
-    input, select, button {
-      width: 100%; padding: 14px; border-radius: 14px; border: 1px solid var(--line);
-      background: #0b1728; color: var(--text); font-size: 16px;
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.85), transparent 78%);
     }
-    button { cursor: pointer; background: #11304b; border-color: #275473; }
-    .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 18px; }
-    @media (min-width: 720px) { .stats { grid-template-columns: repeat(4, 1fr); } }
-    .stat, .lead { background: rgba(16,28,47,.92); border: 1px solid var(--line); border-radius: 22px; box-shadow: 0 12px 30px rgba(0,0,0,.18); }
+    header, main { max-width: 1220px; margin: auto; position: relative; }
+    header { padding: 28px 16px 12px; }
+    main { padding: 8px 16px 44px; }
+    .eyebrow { color: var(--accent2); text-transform: uppercase; letter-spacing: .18em; font-size: 12px; font-weight: 900; margin-bottom: 10px; }
+    h1 { margin: 0; font-size: clamp(42px, 10vw, 82px); line-height: .9; letter-spacing: -.065em; }
+    .subtitle { color: var(--muted); margin-top: 14px; max-width: 880px; font-size: 17px; line-height: 1.5; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; }
+    .nav button { width: auto; padding: 9px 12px; border-radius: 999px; font-size: 13px; color: var(--muted); background: rgba(13,24,39,.82); border: 1px solid var(--line); cursor: pointer; }
+    .nav button.active { color: var(--text); border-color: rgba(56,189,248,.55); background: rgba(56,189,248,.12); }
+    .grid { display: grid; gap: 12px; }
+    @media (min-width: 900px) { .grid.two { grid-template-columns: 1.15fr .85fr; } .grid.four { grid-template-columns: repeat(4, 1fr); } .grid.three { grid-template-columns: repeat(3, 1fr); } }
+    .panel, .card, .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 18px 44px rgba(0,0,0,.24);
+      backdrop-filter: blur(10px);
+    }
+    .panel, .card { padding: 16px; }
+    .panel h2, .section-title h2 { margin: 0 0 8px; font-size: 19px; letter-spacing: -.02em; }
+    .panel p { margin: 0; color: var(--muted); line-height: 1.5; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip { border: 1px solid var(--line); color: var(--accent); border-radius: 999px; padding: 7px 10px; font-size: 12px; background: rgba(56,189,248,.07); }
+    .toolbar { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 18px 0; }
+    @media (min-width: 780px) { .toolbar { grid-template-columns: 1fr 180px 180px 180px; } }
+    input, select, textarea, button {
+      width: 100%; padding: 13px 14px; border-radius: 14px; border: 1px solid var(--line);
+      background: rgba(7,18,31,.94); color: var(--text); font-size: 15px; outline: none;
+    }
+    textarea { min-height: 92px; resize: vertical; }
+    input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(56,189,248,.12); }
+    button.primary { cursor: pointer; background: linear-gradient(135deg, #0e3756, #0f263e); border-color: #2c6382; font-weight: 850; }
     .stat { padding: 14px; }
-    .stat b { display: block; font-size: 26px; }
+    .stat b { display: block; font-size: 28px; letter-spacing: -.04em; }
     .stat span { color: var(--muted); font-size: 13px; }
-    .list { display: grid; gap: 14px; }
-    .lead { padding: 16px; }
+    .section-title { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 22px 0 10px; }
+    .section-title span { color: var(--muted); font-size: 13px; }
+    .list { display: grid; gap: 12px; }
     .topline { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
-    .company { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
-    .score { min-width: 60px; text-align: center; padding: 8px 12px; border-radius: 999px; background: #082f49; color: var(--accent); font-weight: 800; }
+    .name { font-size: 21px; font-weight: 850; letter-spacing: -.03em; }
     .meta { color: var(--muted); font-size: 13px; margin: 6px 0 10px; }
-    .signal { display: inline-block; padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--good); margin-bottom: 10px; font-size: 13px; }
-    .evidence { margin: 8px 0; }
-    .pitch { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--muted); margin-top: 12px; }
+    .badge { display: inline-block; padding: 5px 10px; border-radius: 999px; border: 1px solid rgba(134,239,172,.24); color: var(--good); margin: 0 6px 8px 0; font-size: 12px; background: rgba(34,197,94,.08); }
+    .badge.warn { border-color: rgba(251,191,36,.28); color: var(--warn); background: rgba(251,191,36,.08); }
+    .badge.info { border-color: rgba(56,189,248,.28); color: var(--accent); background: rgba(56,189,248,.08); }
+    .score { min-width: 64px; text-align: center; padding: 8px 12px; border-radius: 999px; background: rgba(8,47,73,.85); color: var(--accent); font-weight: 900; border: 1px solid rgba(56,189,248,.26); }
+    .notes { color: #d7e2ef; line-height: 1.45; margin: 8px 0; }
+    .action { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--muted); margin-top: 12px; line-height: 1.45; }
+    .hidden { display: none !important; }
     a { color: var(--accent); text-decoration: none; }
-    .empty { padding: 24px; border-radius: 22px; border: 1px dashed var(--line); color: var(--muted); background: #0b1728; }
-    footer { margin-top: 20px; color: var(--muted); font-size: 12px; }
+    footer { margin-top: 24px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+    .mini { font-size: 12px; color: var(--muted); }
   </style>
 </head>
 <body>
   <header>
-    <h1>Hidden Job Radar</h1>
-    <p class="subtitle">Discover companies showing growth, expansion, funding, operational stress, or hiring signals before they openly advertise jobs.</p>
-  </header>
-  <main>
-    <div class="toolbar">
-      <input id="search" placeholder="Search companies, signals, evidence..." />
-      <select id="minScore">
-        <option value="0">Any score</option>
-        <option value="5">Score 5+</option>
-        <option value="10">Score 10+</option>
-        <option value="15">Score 15+</option>
-      </select>
-      <button id="refresh">Refresh Leads</button>
+    <div class="eyebrow">Maritime Opportunity Intelligence</div>
+    <h1>SeaVector</h1>
+    <p class="subtitle">A private command center for tracking vessel movement, transport triggers, marina pressure, broker activity, distress signals, and relationship opportunities in the South Florida marine ecosystem.</p>
+    <div class="nav" id="nav">
+      <button class="active" data-tab="dashboard">Dashboard</button>
+      <button data-tab="signals">Opportunity Feed</button>
+      <button data-tab="brokers">Broker Watchlist</button>
+      <button data-tab="marinas">Marina Watchlist</button>
+      <button data-tab="transporters">Transporters</button>
+      <button data-tab="sources">Signal Sources</button>
+      <button data-tab="add">Log Signal</button>
     </div>
-    <section class="stats">
-      <div class="stat"><b id="total">0</b><span>Total Leads</span></div>
-      <div class="stat"><b id="shown">0</b><span>Visible Leads</span></div>
-      <div class="stat"><b id="avg">0</b><span>Average Score</span></div>
-      <div class="stat"><b id="updated">—</b><span>Last Detection</span></div>
-    </section>
-    <section id="list" class="list"></section>
-    <footer>To run a new scan: GitHub → Actions → Hidden Job Radar Scanner → Run workflow → refresh this page.</footer>
-  </main>
-  <script>
-    let leads = [];
-    const $ = id => document.getElementById(id);
-    function escapeHtml(str) { return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;'); }
-    function formatDate(value) { if (!value) return '—'; try { return new Date(value).toLocaleDateString(); } catch { return '—'; } }
-    function render() {
-      const q = $('search').value.toLowerCase().trim();
-      const min = Number($('minScore').value || 0);
-      const filtered = leads.filter(lead => {
-        const text = `${lead.company} ${lead.signal} ${lead.evidence} ${lead.suggested_pitch}`.toLowerCase();
-        return text.includes(q) && Number(lead.score || 0) >= min;
-      });
-      $('total').textContent = leads.length;
-      $('shown').textContent = filtered.length;
-      $('avg').textContent = leads.length ? Math.round(leads.reduce((s,l)=>s+Number(l.score||0),0)/leads.length) : 0;
-      $('updated').textContent = leads.length ? formatDate(leads[0].detected_at) : '—';
-      const list = $('list');
-      if (!filtered.length) {
-        list.innerHTML = '<div class="empty">No leads found yet. Run the GitHub Actions scanner and refresh this page.</div>';
-        return;
-      }
-      list.innerHTML = filtered.map(lead => `
-        <article class="lead">
-          <div class="topline">
-            <div>
-              <div class="company">${escapeHtml(lead.company)}</div>
-              <div class="meta">${escapeHtml(lead.signal)} · ${escapeHtml(formatDate(lead.detected_at))}</div>
-            </div>
-            <div class="score">${escapeHtml(lead.score)}</div>
+  </header>
+
+  <main>
+    <section id="dashboard" class="tab">
+      <div class="grid two">
+        <div class="panel">
+          <h2>Mission</h2>
+          <p>SeaVector converts fragmented maritime signals into an operational picture: where vessels are moving, where urgency is building, who controls relationships, and where transport or service opportunities may be forming.</p>
+          <div class="chips">
+            <span class="chip">Transport demand</span>
+            <span class="chip">Price reductions</span>
+            <span class="chip">Seasonal migration</span>
+            <span class="chip">Marina pressure</span>
+            <span class="chip">Broker activity</span>
           </div>
-          <div class="signal">Signal Detected</div>
-          <div class="evidence"><strong>Evidence:</strong> ${escapeHtml(lead.evidence)}</div>
-          <p><a href="${escapeHtml(lead.url)}" target="_blank" rel="noopener">Open Source</a></p>
-          <div class="pitch">${escapeHtml(lead.suggested_pitch)}</div>
-        </article>
-      `).join('');
-    }
-    async function loadLeads() {
-      try {
-        const response = await fetch('data/leads.json?cache=' + Date.now());
-        leads = response.ok ? await response.json() : [];
-      } catch (err) { leads = []; }
-      render();
-    }
-    $('search').addEventListener('input', render);
-    $('minScore').addEventListener('change', render);
-    $('refresh').addEventListener('click', loadLeads);
-    loadLeads();
+        </div>
+        <div class="panel">
+          <h2>Phase 1 Operating Rule</h2>
+          <p>Do not build a SaaS yet. Use this as an internal intelligence notebook: track signals, call operators, log conversations, and find one useful coordination opportunity.</p>
+        </div>
+      </div>
+
+      <div class="section-title"><h2>Current Operating Picture</h2><span>Seed data + your saved signals</span></div>
+      <section class="grid four">
+        <div class="stat"><b id="signalCount">0</b><span>Total Signals</span></div>
+        <div class="stat"><b id="brokerCount">0</b><span>Brokers</span></div>
+        <div class="stat"><b id="marinaCount">0</b><span>Marinas</span></div>
+        <div class="stat"><b id="transporterCount">0</b><span>Transporters</span></div>
+      </section>
+
+      <div class="section-title"><h2>Today’s Loop</h2><span>Manual intelligence dominance</span></div>
+      <section class="grid three">
+        <div class="panel"><h2>1. Scan</h2><p>Check listings, price cuts, broker posts, marina updates, weather, and relocation chatter.</p></div>
+        <div class="panel"><h2>2. Interpret</h2><p>Ask: does this imply movement, urgency, distress, capacity shortage, or relationship opportunity?</p></div>
+        <div class="panel"><h2>3. Contact</h2><p>Make 3–5 soft calls/messages as an operator, not a marketer. Log everything.</p></div>
+      </section>
+    </section>
+
+    <section id="signals" class="tab hidden">
+      <div class="toolbar">
+        <input id="search" placeholder="Search signals, companies, vessels, marinas, notes..." />
+        <select id="typeFilter"><option value="all">All signal types</option></select>
+        <select id="priorityFilter"><option value="0">Any priority</option><option value="5">Priority 5+</option><option value="10">Priority 10+</option><option value="15">Priority 15+</option></select>
+        <button class="primary" id="resetSignals">Reset Seed Data</button>
+      </div>
+      <div class="section-title"><h2>Opportunity Feed</h2><span>Signals that may imply maritime movement or coordination demand</span></div>
+      <section id="signalList" class="list"></section>
+    </section>
+
+    <section id="brokers" class="tab hidden">
+      <div class="section-title"><h2>Broker Watchlist</h2><span>Initial South Florida relationship targets</span></div>
+      <section id="brokerList" class="list"></section>
+    </section>
+
+    <section id="marinas" class="tab hidden">
+      <div class="section-title"><h2>Marina Watchlist</h2><span>Slip pressure, fuel, expansions, and movement clues</span></div>
+      <section id="marinaList" class="list"></section>
+    </section>
+
+    <section id="transporters" class="tab hidden">
+      <div class="section-title"><h2>Transporter Watchlist</h2><span>Route capacity, responsiveness, vessel-size fit</span></div>
+      <section id="transporterList" class="list"></section>
+    </section>
+
+    <section id="sources" class="tab hidden">
+      <div class="section-title"><h2>Daily Signal Sources</h2><span>Where to look before making calls</span></div>
+      <section id="sourceList" class="list"></section>
+    </section>
+
+    <section id="add" class="tab hidden">
+      <div class="panel">
+        <h2>Log a New Maritime Signal</h2>
+        <p class="mini">This saves locally in your browser for now. Later, wire this into GitHub JSON, Supabase, or a simple backend.</p>
+        <div class="grid two" style="margin-top:14px">
+          <input id="newName" placeholder="Company / vessel / marina" />
+          <select id="newType">
+            <option>Transport Signal</option>
+            <option>Broker Signal</option>
+            <option>Marina Signal</option>
+            <option>Distress Signal</option>
+            <option>Seasonal Migration</option>
+            <option>Relationship Signal</option>
+          </select>
+          <input id="newRegion" placeholder="Region, e.g. Fort Lauderdale" />
+          <input id="newPriority" type="number" min="1" max="20" placeholder="Priority 1-20" />
+        </div>
+        <textarea id="newEvidence" placeholder="Evidence observed: price cut, sold post, relocation clue, marina update, etc."></textarea>
+        <textarea id="newAction" placeholder="Next action: call broker, verify transport need, identify marina availability, etc."></textarea>
+        <button class="primary" id="saveSignal" style="margin-top:10px">Save Signal</button>
+      </div>
+    </section>
+
+    <footer>SeaVector Phase 1: internal maritime intelligence notebook. Current page is static GitHub Pages; manual entries are stored in this browser via localStorage.</footer>
+  </main>
+
+  <script>
+    const seedSignals = [
+      {name:'South Florida seasonal movement', type:'Seasonal Migration', region:'Fort Lauderdale / Miami / Palm Beach', priority:14, date:'2026-05-12', evidence:'South Florida remains the first theater to monitor because yacht density, broker concentration, marinas, and transport routes overlap.', action:'Build broker, marina, and transporter watchlists before attempting paid coordination.'},
+      {name:'Price reduction watch', type:'Distress Signal', region:'South Florida', priority:12, date:'2026-05-12', evidence:'Repeated vessel price reductions can indicate motivated sellers, stale inventory, ownership fatigue, or pending relocation.', action:'Check reduced listings daily and log broker, vessel size, days listed, and likely movement need.'},
+      {name:'Broker sold-post monitoring', type:'Broker Signal', region:'Palm Beach / Fort Lauderdale', priority:11, date:'2026-05-12', evidence:'Sold announcements often precede transport, captain delivery, insurance, marina, survey, and detailing needs.', action:'Track sold posts and open soft relationship messages with brokers.'},
+      {name:'Marina capacity pressure', type:'Marina Signal', region:'Fort Lauderdale', priority:10, date:'2026-05-12', evidence:'High-demand marinas and limited transient space can create urgent coordination needs for incoming vessels.', action:'Start a marina call list and ask about transient availability, seasonal waitlists, and referral partners.'},
+      {name:'Transport capacity mapping', type:'Transport Signal', region:'East Coast routes', priority:13, date:'2026-05-12', evidence:'The first monetizable wedge is knowing who can move vessels, on what routes, and how responsive they are.', action:'Call transporters to map route focus, size limits, lead time, and referral policy.'}
+    ];
+    const brokers = [
+      ['Allied Marine','Fort Lauderdale','Large-yacht brokerage; high relationship value.'],
+      ['Denison Yachting','Fort Lauderdale','Major South Florida brokerage; monitor sold posts and reductions.'],
+      ['HMY Yachts','Palm Beach / South Florida','Strong luxury inventory; useful for movement signals.'],
+      ['United Yacht Sales','South Florida','Broad brokerage network; watch active inventory.'],
+      ['Worth Avenue Yachts','Palm Beach','Premium brokerage; high-value relationship target.'],
+      ['Fraser Yachts','Fort Lauderdale','Superyacht ecosystem; slower but strategic.'],
+      ['IYC','Fort Lauderdale','Large brokerage/management network.'],
+      ['Gilman Yachts','Fort Lauderdale','Established local operator.'],
+      ['26 North Yachts','Fort Lauderdale','Active motor yacht brokerage.'],
+      ['FB Marine Group','Fort Lauderdale','Sales/service crossover potential.']
+    ];
+    const marinas = [
+      ['Bahia Mar Yachting Center','Fort Lauderdale','Major yacht show/marina node; high signal density.'],
+      ['Las Olas Marina','Fort Lauderdale','Premium redevelopment/occupancy intelligence target.'],
+      ['Pier Sixty-Six Marina','Fort Lauderdale','High-end marina; superyacht movement clues.'],
+      ['Lauderdale Marine Center','Fort Lauderdale','Shipyard/haul-out intelligence node.'],
+      ['Bradford Marine','Fort Lauderdale','Service yard; useful for repair and movement signals.'],
+      ['Rybovich Marina','West Palm Beach','Major superyacht service facility.'],
+      ['Palm Harbor Marina','West Palm Beach','Premium marina; slip availability signals.'],
+      ['Miami Beach Marina','Miami','Transient and relocation intelligence target.'],
+      ['Island Gardens Deep Harbour','Miami','Large-yacht node.'],
+      ['Loggerhead Marinas','South Florida','Network operator; useful for capacity conversations.']
+    ];
+    const transporters = [
+      ['Joule Yacht Transport','Florida / National','Large specialized yacht transporter; map referral process.'],
+      ['United Yacht Transport','International / Domestic','Strategic high-value movement operator.'],
+      ['Sevenstar Yacht Transport','Global','Major yacht transport brand; monitor routes.'],
+      ['Cross Chartering Yacht Transport','Global / US','Heavy-lift and yacht transport intelligence.'],
+      ['Yacht Trucking','US routes','Road transport research target.'],
+      ['Pilot Yacht Transport','US routes','Call to confirm size, regions, and referral terms.'],
+      ['Associated Boat Transport','US routes','Potential road transport operator.'],
+      ['Deep Water Transport','Florida-linked','Verify current routes and specialties.']
+    ];
+    const sources = [
+      ['YachtWorld','Listings, reductions, stale inventory, broker activity.'],
+      ['Broker websites','Direct inventory changes and sold announcements.'],
+      ['Broker Instagram/Facebook','Congratulations posts, delivery clues, relocation hints.'],
+      ['Marina websites','Slip, fuel, construction, dockage, facility updates.'],
+      ['Google Maps','Marinas, yards, brokers, transporters, reviews, phone numbers.'],
+      ['NOAA / NHC','Storm and hurricane repositioning triggers.'],
+      ['Craigslist Boats','Distressed/private seller signals.'],
+      ['Facebook boating groups','Relocation, captain, transport, and service chatter.'],
+      ['Marine forums','Owner pain points and route discussions.'],
+      ['Local maritime news','Marina expansion, regulation, closures, and infrastructure signals.']
+    ];
+    const $ = id => document.getElementById(id);
+    const storageKey = 'seavector_signals_v1';
+    function escapeHtml(str){ return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;'); }
+    function loadSignals(){ try { return JSON.parse(localStorage.getItem(storageKey)) || seedSignals; } catch { return seedSignals; } }
+    function saveSignals(data){ localStorage.setItem(storageKey, JSON.stringify(data)); }
+    let signals = loadSignals();
+    function setTab(tab){ document.querySelectorAll('.tab').forEach(el => el.classList.toggle('hidden', el.id !== tab)); document.querySelectorAll('.nav button').forEach(b => b.classList.toggle('active', b.dataset.tab === tab)); }
+    function card(item){ return `<article class="card"><div class="topline"><div><div class="name">${escapeHtml(item.name)}</div><div class="meta">${escapeHtml(item.type)} · ${escapeHtml(item.region)} · ${escapeHtml(item.date)}</div></div><div class="score">${escapeHtml(item.priority)}</div></div><span class="badge">Signal Detected</span><span class="badge info">${escapeHtml(item.region)}</span><div class="notes"><strong>Evidence:</strong> ${escapeHtml(item.evidence)}</div><div class="action">${escapeHtml(item.action)}</div></article>`; }
+    function simpleCard(row, label){ return `<article class="card"><div class="name">${escapeHtml(row[0])}</div><div class="meta">${escapeHtml(row[1])}</div><span class="badge info">${escapeHtml(label)}</span><div class="notes">${escapeHtml(row[2] || '')}</div></article>`; }
+    function sourceCard(row){ return `<article class="card"><div class="name">${escapeHtml(row[0])}</div><span class="badge warn">Daily Scan Source</span><div class="notes">${escapeHtml(row[1])}</div></article>`; }
+    function renderFilters(){ const types = ['all', ...Array.from(new Set(signals.map(s => s.type)))]; $('typeFilter').innerHTML = types.map(t => `<option value="${escapeHtml(t)}">${escapeHtml(t === 'all' ? 'All signal types' : t)}</option>`).join(''); }
+    function renderSignals(){ const q = $('search') ? $('search').value.toLowerCase().trim() : ''; const type = $('typeFilter') ? $('typeFilter').value : 'all'; const min = $('priorityFilter') ? Number($('priorityFilter').value || 0) : 0; const filtered = signals.filter(s => `${s.name} ${s.type} ${s.region} ${s.evidence} ${s.action}`.toLowerCase().includes(q) && (type === 'all' || s.type === type) && Number(s.priority || 0) >= min); $('signalList').innerHTML = filtered.length ? filtered.map(card).join('') : '<div class="card">No matching signals yet.</div>'; }
+    function render(){ $('signalCount').textContent = signals.length; $('brokerCount').textContent = brokers.length; $('marinaCount').textContent = marinas.length; $('transporterCount').textContent = transporters.length; if($('signalList')) renderSignals(); $('brokerList').innerHTML = brokers.map(r => simpleCard(r, 'Broker')).join(''); $('marinaList').innerHTML = marinas.map(r => simpleCard(r, 'Marina')).join(''); $('transporterList').innerHTML = transporters.map(r => simpleCard(r, 'Transporter')).join(''); $('sourceList').innerHTML = sources.map(sourceCard).join(''); }
+    document.getElementById('nav').addEventListener('click', e => { if(e.target.matches('button[data-tab]')) setTab(e.target.dataset.tab); });
+    ['search','typeFilter','priorityFilter'].forEach(id => document.addEventListener('input', e => { if(e.target.id === id) renderSignals(); }));
+    document.addEventListener('change', e => { if(['typeFilter','priorityFilter'].includes(e.target.id)) renderSignals(); });
+    $('saveSignal').addEventListener('click', () => { const item = { name:$('newName').value || 'Unnamed Signal', type:$('newType').value, region:$('newRegion').value || 'Unknown region', priority:Number($('newPriority').value || 10), date:new Date().toISOString().slice(0,10), evidence:$('newEvidence').value || 'No evidence entered yet.', action:$('newAction').value || 'Define next action.' }; signals = [item, ...signals]; saveSignals(signals); ['newName','newRegion','newPriority','newEvidence','newAction'].forEach(id => $(id).value=''); renderFilters(); render(); setTab('signals'); });
+    $('resetSignals').addEventListener('click', () => { signals = seedSignals; saveSignals(signals); renderFilters(); render(); });
+    renderFilters(); render();
   </script>
 </body>
 </html>
