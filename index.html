@@ -1,18 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="refresh" content="0; url=./docs/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RevOps Hidden Job Radar</title>
   <style>
-    body { font-family: Arial, sans-serif; background:#0f172a; color:#f8fafc; padding:24px; }
-    a { color:#38bdf8; }
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --card: #101c2f;
+      --line: #26364f;
+      --text: #e8eef8;
+      --muted: #9fb0c7;
+      --accent: #7dd3fc;
+      --good: #86efac;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(circle at top, #10223d, var(--bg));
+      color: var(--text);
+    }
+    header { padding: 24px 16px 12px; max-width: 1100px; margin: auto; }
+    h1 { margin: 0; font-size: clamp(32px, 8vw, 58px); line-height: 1; letter-spacing: -0.04em; }
+    .subtitle { color: var(--muted); margin-top: 10px; max-width: 760px; }
+    main { max-width: 1100px; margin: auto; padding: 10px 16px 40px; }
+    .toolbar { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 18px 0; }
+    @media (min-width: 720px) { .toolbar { grid-template-columns: 1fr 180px 180px; } }
+    input, select, button {
+      width: 100%; padding: 14px; border-radius: 14px; border: 1px solid var(--line);
+      background: #0b1728; color: var(--text); font-size: 16px;
+    }
+    button { cursor: pointer; background: #11304b; border-color: #275473; }
+    .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 18px; }
+    @media (min-width: 720px) { .stats { grid-template-columns: repeat(4, 1fr); } }
+    .stat, .lead { background: rgba(16,28,47,.92); border: 1px solid var(--line); border-radius: 22px; box-shadow: 0 12px 30px rgba(0,0,0,.18); }
+    .stat { padding: 14px; }
+    .stat b { display: block; font-size: 26px; }
+    .stat span { color: var(--muted); font-size: 13px; }
+    .list { display: grid; gap: 14px; }
+    .lead { padding: 16px; }
+    .topline { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+    .company { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .score { min-width: 60px; text-align: center; padding: 8px 12px; border-radius: 999px; background: #082f49; color: var(--accent); font-weight: 800; }
+    .meta { color: var(--muted); font-size: 13px; margin: 6px 0 10px; }
+    .signal { display: inline-block; padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--good); margin-bottom: 10px; font-size: 13px; }
+    .evidence { margin: 8px 0; }
+    .pitch { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--muted); margin-top: 12px; }
+    a { color: var(--accent); text-decoration: none; }
+    .empty { padding: 24px; border-radius: 22px; border: 1px dashed var(--line); color: var(--muted); background: #0b1728; }
+    footer { margin-top: 20px; color: var(--muted); font-size: 12px; }
   </style>
 </head>
 <body>
-  <h1>RevOps Hidden Job Radar</h1>
-  <p>Redirecting to the dashboard...</p>
-  <p><a href="./docs/">Open dashboard</a></p>
+  <header>
+    <h1>Hidden Job Radar</h1>
+    <p class="subtitle">Discover companies showing growth, expansion, funding, operational stress, or hiring signals before they openly advertise jobs.</p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <input id="search" placeholder="Search companies, signals, evidence..." />
+      <select id="minScore">
+        <option value="0">Any score</option>
+        <option value="5">Score 5+</option>
+        <option value="10">Score 10+</option>
+        <option value="15">Score 15+</option>
+      </select>
+      <button id="refresh">Refresh Leads</button>
+    </div>
+    <section class="stats">
+      <div class="stat"><b id="total">0</b><span>Total Leads</span></div>
+      <div class="stat"><b id="shown">0</b><span>Visible Leads</span></div>
+      <div class="stat"><b id="avg">0</b><span>Average Score</span></div>
+      <div class="stat"><b id="updated">—</b><span>Last Detection</span></div>
+    </section>
+    <section id="list" class="list"></section>
+    <footer>To run a new scan: GitHub → Actions → Hidden Job Radar Scanner → Run workflow → refresh this page.</footer>
+  </main>
+  <script>
+    let leads = [];
+    const $ = id => document.getElementById(id);
+    function escapeHtml(str) { return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;'); }
+    function formatDate(value) { if (!value) return '—'; try { return new Date(value).toLocaleDateString(); } catch { return '—'; } }
+    function render() {
+      const q = $('search').value.toLowerCase().trim();
+      const min = Number($('minScore').value || 0);
+      const filtered = leads.filter(lead => {
+        const text = `${lead.company} ${lead.signal} ${lead.evidence} ${lead.suggested_pitch}`.toLowerCase();
+        return text.includes(q) && Number(lead.score || 0) >= min;
+      });
+      $('total').textContent = leads.length;
+      $('shown').textContent = filtered.length;
+      $('avg').textContent = leads.length ? Math.round(leads.reduce((s,l)=>s+Number(l.score||0),0)/leads.length) : 0;
+      $('updated').textContent = leads.length ? formatDate(leads[0].detected_at) : '—';
+      const list = $('list');
+      if (!filtered.length) {
+        list.innerHTML = '<div class="empty">No leads found yet. Run the GitHub Actions scanner and refresh this page.</div>';
+        return;
+      }
+      list.innerHTML = filtered.map(lead => `
+        <article class="lead">
+          <div class="topline">
+            <div>
+              <div class="company">${escapeHtml(lead.company)}</div>
+              <div class="meta">${escapeHtml(lead.signal)} · ${escapeHtml(formatDate(lead.detected_at))}</div>
+            </div>
+            <div class="score">${escapeHtml(lead.score)}</div>
+          </div>
+          <div class="signal">Signal Detected</div>
+          <div class="evidence"><strong>Evidence:</strong> ${escapeHtml(lead.evidence)}</div>
+          <p><a href="${escapeHtml(lead.url)}" target="_blank" rel="noopener">Open Source</a></p>
+          <div class="pitch">${escapeHtml(lead.suggested_pitch)}</div>
+        </article>
+      `).join('');
+    }
+    async function loadLeads() {
+      try {
+        const response = await fetch('data/leads.json?cache=' + Date.now());
+        leads = response.ok ? await response.json() : [];
+      } catch (err) { leads = []; }
+      render();
+    }
+    $('search').addEventListener('input', render);
+    $('minScore').addEventListener('change', render);
+    $('refresh').addEventListener('click', loadLeads);
+    loadLeads();
+  </script>
 </body>
 </html>
